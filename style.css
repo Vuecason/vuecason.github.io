@@ -1,0 +1,30 @@
+body {
+	background-color:#000000;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 300;
+	font-size:54px;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-style: bold; 
+	font-weight:normal;
+	font-size:32px ;
+	
+	color: #FFFFFF;
+}
+
+h3 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight:normal;;
+	font-size:32px; 
+	
+	color: #FFFFFF;
+}
+
