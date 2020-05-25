@@ -35,7 +35,7 @@ h3 {
 }
 
 .parent {
-	position: relative;
+	position: absolute;
 	top: 50px;
 	left: 130px;
 }
