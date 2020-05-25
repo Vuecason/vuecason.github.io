@@ -21,7 +21,8 @@ h2 {
 	font-style: bold; 
 	font-weight:normal;
 	font-size:32px ;
-	
+	padding-top:50px;
+	padding-bottom:50px;
 	color: #FFFFFF;
 }
 
@@ -30,7 +31,8 @@ h3 {
 	font-style: normal;
 	font-weight:normal;
 	font-size:32px; 
-	
+	padding-top:20px;
+
 	color: #FFFFFF;
 }
 
@@ -60,27 +62,26 @@ h3 {
 	top: -36px;
 }
 
-a.button1{
+a.button3{
  display:inline-block;
- padding:0.35em 1.2em;
- border:0.1em solid #FFFFFF;
+ padding:0.3em 1.2em;
  margin:0 0.3em 0.3em 0;
- border-radius:0.12em;
+ border-radius:2em;
  box-sizing: border-box;
  text-decoration:none;
  font-family:'Roboto',sans-serif;
  font-weight:300;
  color:#FFFFFF;
+ background-color:#4eb5f1;
  text-align:center;
  transition: all 0.2s;
 }
-a.button1:hover{
- color:#000000;
- background-color:#FFFFFF;
+a.button3:hover{
+ background-color:#4095c6;
 }
 @media all and (max-width:30em){
- a.button1{
+ a.button3{
   display:block;
-  margin:0.4em auto;
+  margin:0.2em auto;
  }
 }
