@@ -22,7 +22,7 @@ h2 {
 	font-weight:normal;
 	font-size:32px ;
 	padding-top:50px;
-	padding-bottom:50px;
+	padding-bottom:25px;
 	color: #FFFFFF;
 }
 
@@ -44,6 +44,14 @@ h3 {
 
 .banner{
 
+}
+
+a:link {
+	font-family: Helvetica;
+	font-size: 22px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	color: white;
 }
 
 .icon {
