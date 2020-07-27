@@ -93,4 +93,11 @@ a.button3:hover{
   display:block;
   margin:0.2em auto;
  }
+
+a:visited{
+	color:White:
+}
+
+a:hover {
+    color:Tomato;
 }
