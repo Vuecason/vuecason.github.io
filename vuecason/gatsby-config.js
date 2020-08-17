@@ -11,6 +11,7 @@ module.exports = {
   },
 
   plugins: [
+    `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-plugin-theme-ui',
       options: { 
