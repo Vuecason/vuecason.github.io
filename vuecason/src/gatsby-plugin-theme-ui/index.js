@@ -8,6 +8,7 @@ export default {
     ...dark.colors,
     background: '#000',
     primary: '#FF928B',
+    accent: '#F2A365',
   },
 
 }
