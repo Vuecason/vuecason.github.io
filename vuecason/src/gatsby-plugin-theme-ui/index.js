@@ -7,8 +7,8 @@ export default {
   colors: {
     ...dark.colors,
     background: '#000',
-    primary: '#FF928B',
-    accent: '#F2A365',
+    primary: '#2a9d8f',
+    accent: '#ef476f',
   },
 
 }

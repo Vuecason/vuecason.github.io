@@ -1,7 +1,8 @@
 import React from 'react';
 import { withPrefix } from 'gatsby';
-import { ThemeProvider } from 'emotion-theming'
-import { Divider } from 'theme-ui'
+import { Component } from 'react';
+import { ThemeProvider } from 'emotion-theming';
+import { Divider } from 'theme-ui';
 
 import { 
   Flex,
@@ -14,8 +15,8 @@ import {
   Text,
 } from 'rebass'
 
-export default function Home() {
 
+export default function Home(){
   return (
     <Flex
       style={{
@@ -31,15 +32,15 @@ export default function Home() {
 
         <div
           style={{
-            paddingLeft: '100px',
+            paddingLeft: '200px',
             paddingTop: '50px',
           }}>
             <Heading
               fontSize={[7]}
-              color='#FF928B'
+              color='accent'
               style={{
-                 paddingLeft: '12px',
-                 paddingBottom: '150px',
+                paddingLeft: '12px',
+                paddingBottom: '150px',
               }}>🦆 vuecason</Heading>
 
             <div  
@@ -76,7 +77,7 @@ export default function Home() {
                 fontSize={[4]}
                 ml={5}
                 mb={3}>
-                  What previously took 90 hours will take 10.
+                  No waiting - cut 5 day lead time to 2.
               </Text>  
               <Divider />
               <Button variant="outline" //FIXME: Why tf does this not work
