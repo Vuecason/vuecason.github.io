@@ -22,7 +22,7 @@ export default function Home(){
       style={{
         width: '100hw',
         height: '100vh',
-        backgroundImage: `url(${withPrefix('/Resources/print.jpg')})`, 
+        backgroundImage: `url(${withPrefix('/Resources/print.jpg')})`,
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
         backgroundPositionX: '100%',
@@ -33,7 +33,7 @@ export default function Home(){
         <div
           style={{
             paddingLeft: '200px',
-            paddingTop: '50px',
+            paddingTop: '50px',    
           }}>
             <Heading
               fontSize={[7]}
