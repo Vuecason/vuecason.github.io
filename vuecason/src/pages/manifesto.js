@@ -17,53 +17,181 @@ import {
 
 export default function Manifesto(){
     return (
-      <Flex>
-        <div
+      <div>
+        <Heading
+          fontSize={[7]}
+          color='accent'
+          style={{
+            paddingTop: '50px',
+            paddingLeft: '212px',
+            paddingBottom: '150px',
+          }}>🦆 vuecason 
+        </Heading>
+
+        <div 
+        style={{
+          paddingLeft: '56px',
+          display: 'grid',
+          gridGap: 15,
+          paddingBottom: '100px',
+        }}>
+        <div>
+          <Link
+            sx={{ 
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Introduction
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Significance of Machine Tooling
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            State of modern machining
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Why additive manufacturing still sucks
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            What happened to the 3d printing revolution?
+          </Link>
+        </div>
+        
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Problems with current AM 
+          </Link>
+        </div>
+        
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Why additive manufacturing still sucks
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Problems with mechanical properties
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Practical use cases 
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Potential advantages of AM
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Overcoming rate limits
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Reducing part costs
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Why AM is underated
+          </Link>
+        </div>
+
+        <div>
+          <Link
+            sx={{
+              fontWeight: 'bold',
+              color: 'primary',
+            }}>
+            Vuecason will solve all these problems
+          </Link>
+        </div>
+
+        </div>
+        <Flex
+          bg='accent'
+          height='50px'>
+          <Link
+            href='/'
             style={{
               paddingLeft: '200px',
-              paddingTop: '50px',    
+              fontWeight: 'bold',
+              paddingTop: '11px',
+              px: 2,
+              py: 1,
+              color: 'inherit',
             }}>
-              <Heading
-                fontSize={[7]}
-                color='accent'
-                style={{
-                  paddingLeft: '12px',
-                  paddingBottom: '150px',
-                }}>🦆 vuecason</Heading>
-                <div 
-                  style={{
-                    paddingTop: '20px',
-                    paddingLeft: '20px'
-                  }}>
-                    <Link
-                      sx={{
-                        display: 'inline-block',
-                        fontWeight: 'bold',
-                        px: 2,
-                        py: 1,
-                        color: 'inherit',
-                      }}>
-                      Introduction
-                    </Link>
-                  </div>
-          </div>
-          <Flex
-            style={{
-              backgroundColor:  'accent'
-            }}>
-            <Link
-              href='/'
-              style={{
-                paddingLeft: '150px',
-                display: 'inline-block',
-                fontWeight: 'bold',
-                px: 2,
-                py: 1,
-                color: 'inherit',
-              }}>
-              Home
-            </Link>
-          </Flex>
+            Home
+          </Link>
         </Flex>
-    );
+    </div>
+  );
 }
