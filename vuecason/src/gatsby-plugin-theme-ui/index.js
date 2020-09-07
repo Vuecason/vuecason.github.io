@@ -10,5 +10,7 @@ export default {
     primary: '#2a9d8f',
     accent: '#ef476f',
   },
-
+  sizes: {
+    sidebar: 856,
+  },
 }

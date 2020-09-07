@@ -81,7 +81,7 @@ export default function Home(){
               </Text>  
               <Divider />
               <Button variant="outline" //FIXME: Why tf does this not work
-                onClick={()=> {window.location.href = "https://roamresearch.com/#/app/Divals_Learning/page/fPLO9Wx22"}}
+                onClick={()=> {window.location.href = "/manifesto/"}}
                 mt={3}
                 sx={{
                   fontWeight:'bold',
