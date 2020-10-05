@@ -18,6 +18,7 @@ export default function Manifesto(){
     return (
       <div>
          <BrowserView>
+         <header>
           <Heading
             fontSize={[7]}
             color='accent'
@@ -27,6 +28,7 @@ export default function Manifesto(){
               paddingBottom: '150px',
             }}>🦆 vuecason 
           </Heading>
+          </header>
         
           <Flex
             sx={{
@@ -226,19 +228,20 @@ export default function Manifesto(){
                 style={{
                   paddingLeft: '180px',
                   width: '60%',
-                  paddingBottom:'50px'
+                  paddingBottom:'50px',
+                  color: 'textColor'
                 }}>
                   <Message>
                     This page is undergoing revisions
                   </Message>      
-                  <h1 id = 'introduction'>Introduction</h1>
+                  <h1 variant = 'header' id = 'introduction'>Introduction</h1> 
                   Machine tools like lathes unlocked high precision for larger parts, enabling the creation of inventions such as the steam engine, ultimately giving birth to the industrial revolution.
                   metal AM might become the ultimate machine tool, with more automation and flexibility than the past.  
                   Additive manufacturing can serve as an abstraction layer for manufacturing, so design engineers spend less time thinking about manufacturing.
                   Fast, reliable, and cost effective metal AM will allow for iteration in production, localized production, and more sophisticated parts.
                   By printing metals like plastics, many issues of existing metal AM processes can be avoided. 
                   <Divider></Divider>
-                  <h1>Significance of machine tooling</h1>
+                  <h1 variant = 'header'>Significance of machine tooling</h1>
                   A machine tool is a machine that helps build machines and products
                   machine tools are an important underlying part of any industrial society and enable the industrial capacity of any nation.  The consumption of machine tools is a strong indicator of the overall manufacturing capacity of a nation.
                   The proliferation of machine tools, such as CNC machines enabled the increases in automation seen since the 1960's. 
@@ -287,11 +290,11 @@ export default function Manifesto(){
             bg='accent'
             height='50px'>
             <Link
+              variant='nav'
               href='/'
               style={{
                 paddingLeft: '200px',
                 fontWeight: 'bold',
-                color: 'inherit',
                 paddingTop: '11px',
                 paddingBottom: '11px',
                 alignItems:'center',
@@ -304,10 +307,10 @@ export default function Manifesto(){
       <div
         style={{
           margin: 'auto',
-          width: '80%',
           padding: '10px',
           textAlign: 'center',
         }}>
+          <header>
           <Heading
           fontSize={[6]}
           color='accent'
@@ -316,6 +319,7 @@ export default function Manifesto(){
             paddingLeft: '12px',
             paddingBottom: '50px',
           }}>🦆 vuecason</Heading>
+          </header>
        </div>
        <div
         style={{
@@ -380,10 +384,9 @@ export default function Manifesto(){
             height='50px'>
             <Link
               href='/'
+              variant='nav'
               style={{
                 paddingLeft: '200px',
-                fontWeight: 'bold',
-                color: 'inherit',
                 paddingTop: '11px',
                 paddingBottom: '11px',
                 alignItems:'center',
